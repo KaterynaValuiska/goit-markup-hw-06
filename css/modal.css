@@ -173,7 +173,17 @@ margin: 0;
     fill: #2E2F42;
 }
 
+.form-field input:focus {
+    outline: transparent; 
+    border: 1px solid #4D5AE5;
+        border-radius: 4px;
+    }
+
+.form-field textarea:focus {
+    outline: transparent;
+    border: 1px solid #4D5AE5;
+    border-radius: 4px;
+        }
 .form-field input:focus + .icon-form {
     fill: #4D5AE5;
-   
 }
