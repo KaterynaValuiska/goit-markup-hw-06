@@ -54,6 +54,14 @@ transform: translate(-50%, -50%) scale(1.2);
         border-radius: 50%;
         cursor: pointer;
         align-items: center;
+        padding: auto;
+}
+.modal-btn:hover, .modal-btn:focus {
+background-color: #4D5AE5;
+outline: transparent;
+}
+.modal-btn:hover .icon-cross, .modal-btn:focus .icon-cross {
+    fill: #FFFFFF;
 }
 
 textarea {
@@ -129,12 +137,27 @@ margin: 0;
         letter-spacing: 0.04em;
         color: #757575;
         margin-top: 16px;
+        padding-left: 2em;
 }
 
 .policy input {
+    position: relative;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+   
+}
+
+.check-box {
+    position: absolute;
+    left: 4em;
     width: 16px;
-    margin-right: 8px;
-    border: #2E2F42;
+    height: 16px;
+    background-image: url(../images/default.svg);
+    margin-left: -2em;
+}
+.policy input:checked + .check-box {
+    background-image: url(../images/click.svg);
 }
 
 .btn-form {

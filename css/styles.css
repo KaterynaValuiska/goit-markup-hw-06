@@ -303,7 +303,6 @@ transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
 .footer .container {
 display: flex;
-gap: 120px;
 }
 .footer .logo {
     color: #ffffff;
@@ -315,7 +314,7 @@ gap: 120px;
 
 .logo-footer {
     width: 264px;
-    
+    margin-right: 120px;
 }
 .social-footer p {
   margin-top: 0;
@@ -323,6 +322,11 @@ gap: 120px;
 .elements-ft {
 display: flex;
 }
+
+.soc-net.ft-net {
+width: 208px;
+}
+  
 .social-footer {
 display: block;
 margin-right: 80px;
