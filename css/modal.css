@@ -39,8 +39,9 @@ transform: translate(-50%, -50%) scale(1.2);
     fill: currentColor;
     width: 8px;
     height: 8px;
-    margin: 0;
+    margin: 0 auto;
     padding: 0;
+
 }
 
 .modal-btn {
